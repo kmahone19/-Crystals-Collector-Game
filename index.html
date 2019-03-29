@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Crystal Collector</title>
+</head>
+
+<body>
+    <h1 class="bg-danger">Crystal Collector !</h1>
+
+    <div class="border bg-warning col-6">
+        <p>
+            Welcome to the crystal collector game. You goal is the match the number given at the start. There are four
+            crystals bellow click on them to add them up and reach your goal. However, you need to be careful because if
+            you go over your goal you lose.
+        </p>
+    </div>
+
+    <div id="randomGoal"></div>
+
+    <div>
+        Wins: <span id="wins"></span><br>
+        Losses: <span id="losses"></span><br>
+    </div>
+
+    <div>
+        <button id="crystalOne" class="crystal"><img src="" alt="first crystal"></button>
+        <button id="crystalTwo" class="crystal"><img src="" alt="second crystal"></button>
+        <button id="crystalThree" class="crystal"><img src="" alt="third crystal"></button>
+        <button id="crystalFour" class="crystal"><img src="" alt="fourth crystal"></button>
+    </div>
+
+    <div>Your total score is: </div>
+
+    <div id="userScore"></div>
+
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>
