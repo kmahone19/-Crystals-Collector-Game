@@ -28,8 +28,6 @@ $(document).ready(function () {
 
     // initial values printed to the page
     $("#randomGoal").text(goal);
-    $("#wins").text(win);
-    $("#losses").text(lose);
     $("#userScore").text(userScore);
 
     // Assigns each crystal a random value between 1 and 12
@@ -56,7 +54,5 @@ $(document).ready(function () {
         $("#losses").text(lose);
     });
    
-    
-    newGame();
-    
+    newGame(); 
 })
