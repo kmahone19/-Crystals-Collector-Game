@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  
+
     //  variables to store goal, user score, wins, and losses
     var win = 0;
     var lose = 0;
@@ -18,7 +18,7 @@ $(document).ready(function () {
         $("#randomGoal").text(goal);
         userScore = 0;
         $("#userScore").text(userScore);
-        $(".crystal").each(function(){
+        $(".crystal").each(function () {
             $(this).attr("data-crystalvalue", Math.floor(Math.random() * 12) + 1);
         })
     };
@@ -42,7 +42,7 @@ $(document).ready(function () {
         crystalValue = parseInt(crystalValue);
         userScore += crystalValue;
         $("#userScore").text(userScore);
-       
+
         if (userScore === goal) {
             win++;
             newGame();
@@ -53,6 +53,6 @@ $(document).ready(function () {
         $("#wins").text(win);
         $("#losses").text(lose);
     });
-   
-    newGame(); 
+
+    newGame();
 })

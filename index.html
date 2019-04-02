@@ -21,18 +21,14 @@
                     Welcome to the crystal collector game. You goal is the match the number given at the start.
                 </p>
                 <p>
-                    There are four crystals bellow click on them to add them up and reach your goal. However, you need
-                    to be
-                    careful because if
-                    you go over your goal you lose.
+                    There are four crystals bellow click on them to add them up and reach your goal, but be careful because if you go over your goal you lose.
                 </p>
             </div>
         </div>
-
     </header>
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-4">
                 <div class="card">
                     <h4 class="card-header bg-info"> Your goal number: </h4>
                     <div class="card-body font-weight-bold text-center">
@@ -40,14 +36,22 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-4">
                 <div class="Card border">
                     <h4 class="card-header bg-info"> Your Score is: </h4>
                     <div class="card-body font-weight-bold text-center">
                         <div id="userScore"></div>
                     </div>
                 </div>
-
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="card">
+                    <h4 class="card-header bg-info">Player Stats</h4>
+                    <div class="card-body font-weight-bold text-center">
+                        Wins: <span id="wins">0</span>
+                        Losses: <span id="losses">0</span>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -57,24 +61,6 @@
         <button id="crystalThree" class="crystal"><img src="assets/images/celestine.jfif" alt="third crystal"></button>
         <button id="crystalFour" class="crystal"><img src="assets/images/flourite.jpg" alt="fourth crystal"></button>
     </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-md-6">
-                <div class="card">
-                    <h4 class="card-header bg-info">Player Stats</h4>
-                    <div class="card-body font-weight-bold text-center">
-                        Wins: <span id="wins">0</span><br>
-                        Losses: <span id="losses">0</span><br>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
